@@ -1,0 +1,43 @@
+html {
+    background-color: lightgray;
+
+}
+header{ 
+    display: flex;
+    justify-content: center;
+}
+#submission-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form {
+    display: flex;
+    margin-bottom: 50px;
+    gap: 10px;
+}
+
+.book-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    word-wrap: break-word;
+    border: 2px solid black;
+    max-width: 200px;
+    background: lightskyblue;
+}
+#book-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+}
+.delete-button {
+    background-color: lightpink;
+    font-weight: 700;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
